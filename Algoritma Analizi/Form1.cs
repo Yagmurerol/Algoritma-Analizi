@@ -23,7 +23,7 @@ namespace Algoritma_Analizi
             string girilenSifre = textSifre.Text;
 
             // Örnek Giriş Kontrolü (Veritabanı kurulana kadar sabit kontrol)
-            if (girilenKullaniciAdi == "Esma" && girilenSifre == "12345")
+            if (girilenKullaniciAdi == "Yagmur" && girilenSifre == "12345")
             {
                 MessageBox.Show("Giriş Başarılı!", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
